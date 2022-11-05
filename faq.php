@@ -280,8 +280,8 @@
                           <div class="collapsable">Can I use my own domain?<i class="fas fa-plus collapsablePlusFAQ"></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer">
                             <p>If you want to use your own domain name from third parties (Free or <a href="https://ifastnet.com/portal/aff.php?aff=26864&pid=store" onclick="iFastNetEvent('FAQ', 'General');">Premium</a>), please set your domain nameservers to ours, then add your domain to your control panel using Addon Domain or enter your domain when creating a hosting account. Our nameservers are:</p>
-                            <p>- ns1.ultihost.net</p>
-                            <p>- ns2.ultihost.net</p>
+                            <p>- ns1.byet.org</p>
+                            <p>- ns2.byet.org</p>
                           </div>
                       </li>
 
@@ -289,8 +289,8 @@
                           <div class="collapsable">What are your nameservers?<i class="fas fa-plus collapsablePlusFAQ"></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer">
                             <p>Our nameservers are:</p>
-                            <p>- ns1.ultihost.net</p>
-                            <p>- ns2.ultihost.net</p>
+                            <p>- ns1.byet.org</p>
+                            <p>- ns2.byet.org</p>
                           </div>
                       </li>
 
