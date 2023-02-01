@@ -50,7 +50,7 @@
                 </li>
 
                       <li>
-                          <div class="collapsable ">How can I get free hosting?<i class="fas fa-plus collapsablePlusFAQ"></i></div>
+                          <div class="collapsable">How can I get free hosting?<i class="fas fa-plus collapsablePlusFAQ"></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>
                               Three simple steps! We promise that free hosting is and will always stay free.
@@ -68,7 +68,7 @@
                       </li>
 
                       <li>
-                          <div class="collapsable ">How do I migrate/transfer my website to Ultifree Hosting?<i class="fas fa-plus collapsablePlusFAQ"></i></div>
+                          <div class="collapsable">How do I migrate/transfer my website to Ultifree Hosting?<i class="fas fa-plus collapsablePlusFAQ"></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>
                               If your website doesn't use MySQL databases, moving your site is very easy. Simply upload all your files to the ‘htdocs’ folder on your hosting account. If you have a PHP based website, check if it has any configuration files where a domain name or file path needs to be set. Update these values as necessary. If your website is using MySQL databases, you need to move the database contents as well and update the configuration of your website to use the database. In order to do this follow these steps:
@@ -89,7 +89,7 @@
                       </li>
 
                       <li>
-                          <div class="collapsable ">How long until my account is active?<i class="fas fa-plus collapsablePlusFAQ"></i></div>
+                          <div class="collapsable">How long until my account is active?<i class="fas fa-plus collapsablePlusFAQ"></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>
                               If your account is currently "processing", then within the next 15 minutes you will have been allocated a server and your website will be ready to use!
@@ -105,7 +105,7 @@
                 </li>
 
                       <li>
-                          <div class="collapsable ">What is the difference between a hosting account and a Ultifree Hosting account?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
+                          <div class="collapsable">What is the difference between a hosting account and a Ultifree Hosting account?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>
                               A Ultifree Hosting account is an account which can be used to access the <a href="https://app.ultifreehosting.com">dashboard</a>. A hosting account is each website with its own files/databases that is created through a Ultifree Hosting account. Each Ultifree Hosting account can contain up to 3 hosting accounts and only one Ultifree Hosting account can be created per person.
@@ -114,7 +114,7 @@
                       </li>
 
                       <li>
-                          <div class="collapsable ">How do I delete my account?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
+                          <div class="collapsable">How do I delete my account?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>
                               If you would like to delete a hosting account then do the following:
@@ -156,7 +156,7 @@
                       </li>
 
                       <li>
-                          <div class="collapsable ">What happens to an inactive account?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
+                          <div class="collapsable">What happens to an inactive account?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>
                               An inactive account will be deleted after 60 days without any activity.
@@ -168,7 +168,7 @@
                       </li>
 
                       <li>
-                          <div class="collapsable ">How many accounts can I have?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
+                          <div class="collapsable">How many accounts can I have?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>
                               Each person may have a maximum of 3 hosting accounts and 1 Ultifree Hosting account. If you create any more, your accounts will all be suspended.
@@ -177,7 +177,7 @@
                       </li>
 
                       <li>
-                          <div class="collapsable ">How do I reset my account?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
+                          <div class="collapsable">How do I reset my account?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>
                               If you would like to reset your account to start from scratch for any reason, there is no button to simply do this however you can try the following:
@@ -199,7 +199,7 @@
                               4. Go to Softaculous and in the Installed Apps section delete everything.
                             </p>
                             <p>
-                              5. Go to SiteBuilders and delete all the sitebuilders in your account.
+                              5. Go to SiteBuilders and delete all the Site Builders in your account.
                             </p>
                             <p>
                               6. Connect to the File Manager or FTP, then go to your <code class="inline">htdocs</code> folder and delete everything inside this folder (do this for all your domain folders).
@@ -215,13 +215,13 @@
                       </li>
 
                       <li>
-                          <div class="collapsable ">How do I begin using my premium account?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
+                          <div class="collapsable">How do I begin using my premium account?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>
                               Thank you for upgrading! Now that you've upgraded your account there are a few important things you need to know.
                             </p>
                             <p>
-                              Firstly, you are now a customer of iFastNet, which sponsors Ultifree Hosting and provides the premium hosting services. Premium hosting comes with a seperate support system which can be found here: <a href="http://support.ifastnet.com">http://support.ifastnet.com</a>". Please note that you will need to create an account in the ticketing system to access it. Generally, iFastNet will respond to questions within about 15 minutes, so you shouldn't be worried about any delays.
+                              Firstly, you are now a customer of iFastNet, which sponsors Ultifree Hosting and provides the premium hosting services. Premium hosting comes with a separate support system which can be found here: <a href="http://support.ifastnet.com">http://support.ifastnet.com</a>". Please note that you will need to create an account in the ticketing system to access it. Generally, iFastNet will respond to questions within about 15 minutes, so you shouldn't be worried about any delays.
                             </p>
                             <h5>Migrating your account to premium</h5>
                             <p>
@@ -246,7 +246,7 @@
                       </li>
 
                       <li>
-                          <div class="collapsable ">What type of websites are not allowed to be hosted?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
+                          <div class="collapsable">What type of websites are not allowed to be hosted?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>
                               Anything illegal, websites that contains copyrighted files (warez), adult content, spamming scripts, web proxies and more. For more information please read our <a href="legal/tos.html" target="_blank">TOS</a>.
@@ -255,7 +255,7 @@
                       </li>
 
                       <li>
-                          <div class="collapsable ">Where can I find help?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
+                          <div class="collapsable">Where can I find help?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>
                               You can try checking the other information available here on the FAQs page. If you can't find the information you need, then contact support!
@@ -264,7 +264,7 @@
                       </li>
 
                       <li>
-                          <div class="collapsable ">How do I report a website?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
+                          <div class="collapsable">How do I report a website?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>
                               We would really appreciate it! You can email us at <a href="mailto:abuse@ultifreehosting.com">abuse@ultifreehosting.com</a>
@@ -278,7 +278,7 @@
                 </li>
 
                       <li>
-                          <div class="collapsable ">How many files can I upload?<i class="fas fa-plus collapsablePlusFAQ"></i></div>
+                          <div class="collapsable">How many files can I upload?<i class="fas fa-plus collapsablePlusFAQ"></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>
                               You're free to upload as many files as you want, but please be aware that the largest size for an individual file is limited to 10MB on the free plan.
@@ -287,7 +287,7 @@
                       </li>
 
                       <li>
-                          <div class="collapsable ">How can I upload my files?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
+                          <div class="collapsable">How can I upload my files?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>
                               There are two ways. Firstly, you can download an FTP client (eg. FileZilla). Secondly, you can use our free "Online File Manager", which you can find by clicking "File Manager" in the dashboard.
@@ -296,7 +296,7 @@
                       </li>
 
                       <li>
-                          <div class="collapsable ">Why is my file is vanishing instantly after I upload it?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
+                          <div class="collapsable">Why is my file is vanishing instantly after I upload it?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>
                               The reason for this is probably that the file is larger than 10MB. On the free hosting plan there is a <u>per file upload limit of 10MB</u>, meaning you can upload an unlimited number of files, but each of these files must be less than or equal to 10MB in size. There is no way to increase the upload limit (even temporarily) at the moment.
@@ -305,7 +305,7 @@
                       </li>
 
                       <li>
-                          <div class="collapsable ">How can I use FTP?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
+                          <div class="collapsable">How can I use FTP?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>
                               You can view a tutorial on how to setup and use FTP to manage your files <a href="https://www.ostraining.com/blog/coding/filezilla-beginner/" target="_blank">here</a>.
@@ -314,7 +314,7 @@
                       </li>
                       
                       <li>
-                          <div class="collapsable ">Is there a file/upload size limit?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
+                          <div class="collapsable">Is there a file/upload size limit?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>
                               There is a per file size limit of 10MB. Please note this is <u>not</u> a total disk space limit, only a <u>per file limit</u>. Please do not try to raise this limit through your PHP settings as it is enforced on the file system level.
@@ -405,7 +405,7 @@
                       </li>
 
                       <li>
-                          <div class="collapsable ">How do I get $1 off my first domain purchase with Ultifree Hosting?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
+                          <div class="collapsable">How do I get $1 off my first domain purchase with Ultifree Hosting?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>
                               Got to the <a href="/domains.php">domains page</a> on our website, then search for your dream domain. At checkout use the following code: "ultifree1$".
@@ -419,7 +419,7 @@
                 </li>
 
                       <li>
-                          <div class="collapsable ">How do I use or get SSL Certificates?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
+                          <div class="collapsable">How do I use or get SSL Certificates?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <h5>I already have a certificate:</h5>
                             <p>1. Open your Control Panel, click on the SSL/TLS section.</p>
@@ -446,7 +446,7 @@
                       </li>
 
                       <li>
-                          <div class="collapsable ">How do I force all traffic to HTTPS?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
+                          <div class="collapsable">How do I force all traffic to HTTPS?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>Now that you have SSL on your website, you will want to make sure to redirect all your visitors to the secure version of your website.</p>
                             <h5>Using your Cloudflare settings:</h5>
@@ -472,14 +472,14 @@
                       </li>
 
                   <li>
-                      <div class="collapsable ">How do I renew my free SSL certificate?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
+                      <div class="collapsable">How do I renew my free SSL certificate?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
                       <div class="collapsableContent collapsableContentFAQ answer ">
                         <p>Due to the nature of how SSL certificates are created (they contain the expiry date within their code), to "renew" your SSL certificate you will need to generate a new one when your previous certificate expires.</p>
                       </div>
                   </li>
 
                   <li>
-                      <div class="collapsable ">How do I verify my domain?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
+                      <div class="collapsable">How do I verify my domain?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
                       <div class="collapsableContent collapsableContentFAQ answer ">
                           <p>To verify your domain you'll need to create a CNAME record with the values specified in the box that opens when you click the "Verify" button next to your certificate in the dashboard.</p>
                           <p>If your nameservers are pointing to ours you can create a CNAME record in the control panel (in the dashboard click the control panel button, then find the CNAME tab), otherwise please check on the website where you bought your domain.</p>
@@ -491,7 +491,7 @@
                 </li>
 
                       <li>
-                          <div class="collapsable ">Is email available on free hosting accounts?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
+                          <div class="collapsable">Is email available on free hosting accounts?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>No, due to severe spam issues, email accounts have been disabled on free hosting account.</p>
                             <p>If you require email, please upgrade to one of our <a href="https://ifastnet.com/portal/aff.php?aff=26864&pid=store" onclick="iFastNetEvent('FAQ', 'General');">Premium Plans</a>. We provide you with unlimited email accounts, powerful spam filters to protect your accounts, and access to 3 webmail clients (RoundCube, Horde and SquirrelMail) if you upgrade!</p>
@@ -499,7 +499,7 @@
                       </li>
 
                       <li>
-                          <div class="collapsable ">Is IMAP, POP and SMTP available on free hosting accounts?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
+                          <div class="collapsable">Is IMAP, POP and SMTP available on free hosting accounts?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>To use your own email software (such as Outlook), you need to have POP, IMAP or SMTP on your hosting account to access your email accounts.</p>
                             <p>Unfortunately, on free hosting accounts IMAP, POP and SMTP are unavailable.</p>
@@ -508,7 +508,7 @@
                       </li>
 
                       <li>
-                          <div class="collapsable ">Can I use PHP mail() to send email on free hosting accounts?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
+                          <div class="collapsable">Can I use PHP mail() to send email on free hosting accounts?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>PHP mail() is severely restricted on Ultifree Hosting. Although some messages sent using the mail() function may succeed, generally most messages will be rejected by the mail system.</p>
                             <p>If you want to send mail from your website, the easiest way would be to use an external SMTP service. Using PHPMailer in combination with Gmail is one such option. Additionally, there are also other SMTP providers that will simply forward mail to your Gmail account.</p>
@@ -522,7 +522,7 @@
                 </li>
 
                       <li>
-                          <div class="collapsable ">How do I create custom .htaccess rules?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
+                          <div class="collapsable">How do I create custom .htaccess rules?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>Creating .htaccess rules allows you manage your website in powerful ways such as by creating custom error pages, pretty URLs, and much more. There are many guides online on using the .htaccess file.</p>
                             <h5>Creating the .htaccess file in you htdocs directory:</h5>
@@ -532,7 +532,7 @@
                       </li>
 
                       <li>
-                          <div class="collapsable ">Can I use sockets?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
+                          <div class="collapsable">Can I use sockets?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>
                               Yes, you can use socket functions (eg. <code class="inline">fsocketopen()</code> etc..), however, access is limited to prevent abuse. For example, only a small set of default ports are open for sockets. Additional ports cannot be opened.
@@ -541,7 +541,7 @@
                       </li>
 
                       <li>
-                          <div class="collapsable ">What PHP version do you provide?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
+                          <div class="collapsable">What PHP version do you provide?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>
                                 Currently, we only offer PHP version 7.4. It is not possible to upgrade the PHP version on your account. We are working on upgrading to PHP 8, and we will let you know once that happens!
@@ -550,7 +550,7 @@
                       </li>
 
                       <li>
-                          <div class="collapsable ">Can I use SSH?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
+                          <div class="collapsable">Can I use SSH?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                               <p>
                                   No, currently the free plan does not allow for SSH. If you require SSH, please consider upgrading to a <a href="https://ifastnet.com/portal/aff.php?aff=26864&pid=store" onclick="iFastNetEvent('FAQ', 'General');">premium plan</a>.
@@ -559,7 +559,7 @@
                       </li>
 
                       <li>
-                          <div class="collapsable ">How can I enable the ImageMagick PHP extension?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
+                          <div class="collapsable">How can I enable the ImageMagick PHP extension?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>
                               The Imagick extension is currently disabled on free hosting due to a security vulnerability, therefore we cannot enable it. It also uses several Shell-Level commands, which are not possible to use on free hosting at the moment. If you really need this module, you will have to upgrade to one of our <a href="https://ifastnet.com/portal/aff.php?aff=26864&pid=store" onclick="iFastNetEvent('FAQ', 'General');">premium plans</a>.
@@ -568,7 +568,7 @@
                       </li>
 
                       <li>
-                          <div class="collapsable ">Can I put ads on my website?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
+                          <div class="collapsable">Can I put ads on my website?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>
                               Yes, you can put whatever you want on your website, as long as it isn't illegal, harmful to your visitors or us, and doesn't break our <a href="legal/tos.html" target="_blank">TOS</a>. So yes, you can put ads on your site.
@@ -577,7 +577,7 @@
                       </li>
 
                       <li>
-                          <div class="collapsable ">Does Ultifree Hosting provide PHP, MySQL databases, and PHPMyAdmin?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
+                          <div class="collapsable">Does Ultifree Hosting provide PHP, MySQL databases, and PHPMyAdmin?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>
                               Yes, Ultifree Hosting provides PHP, MySQL, and PHPMyAdmin.
@@ -586,7 +586,7 @@
                       </li>
 
                       <li>
-                          <div class="collapsable ">How can I use Laravel on the free hosting plan?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
+                          <div class="collapsable">How can I use Laravel on the free hosting plan?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>
                               While it is possible to run Laravel on a free hosting plan, as Laravel is generally not designed to be run on shared website hosting, you will run into some limitations. If you don't mind these then simply follow these steps to setup Laravel:
@@ -616,7 +616,7 @@
                       </li>
 
                       <li>
-                          <div class="collapsable ">Why do I see ?i=1 at the end of a URL?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
+                          <div class="collapsable">Why do I see ?i=1 at the end of a URL?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>
                               When you open your website for the first time you may see <code class="inline">?i=1</code> at the end of your URL. This extra URL parameter is there due to a browser validation tool used to make sure that your website is only accessed by regular web browsers. Unfortunately, for security reasons, this security system is mandatory on all free sites. It can be removed by <a href="https://ifastnet.com/portal/aff.php?aff=26864&pid=store" onclick="iFastNetEvent('FAQ', 'General');">purchasing a premium plan</a>.
@@ -625,7 +625,7 @@
                       </li>
 
                       <li>
-                          <div class="collapsable ">What is Cloudflare?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
+                          <div class="collapsable">What is Cloudflare?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>
                               Cloudflare is a website acceleration and security service. Cloudflare caches and optimizes the content from your website, and when turned on, visitors will connect to one of Cloudflare's severs around the world instead of to our server with your hosting account on it. As Cloudflare has many more servers all around the world, your website will load faster. Additionally, Cloudflare can block DDOS attacks or provide your website with a shared SSL certificate (which you don't need to manually renew).
@@ -678,7 +678,7 @@
 
                       <li>
                           <div class="collapsable">What is the minimum payout?<i class="fas fa-plus collapsablePlusFAQ"></i></div>
-                          <div class="collapsableContent collapsableContentFAQ answer ">
+                          <div class="collapsableContent collapsableContentFAQ answer">
                             <p>
                               The minimum payout amount is EUR 35. If the amount is less than EUR 35 for a specific month, then you'll receive the cumulative payouts within the first week of the month in which the payments will be equal or exceed EUR 35.
                             </p>
@@ -687,7 +687,7 @@
 
                       <li>
                           <div class="collapsable">Why was my conversion rejected?<i class="fas fa-plus collapsablePlusFAQ"></i></div>
-                          <div class="collapsableContent collapsableContentFAQ answer ">
+                          <div class="collapsableContent collapsableContentFAQ answer">
                             <p>
                               If a conversion has been marked as rejected, this is due to the conversion failing our fraud checks or your promotion not meeting our <a href="legal/affiliateTOS">Affiliate Terms of Service</a>. For security reasons we cannot reveal how we decide if a conversion is fraudulent, however, if too many of your conversion are rejected, then you may be banned from the affiliate program.
                             </p>
@@ -700,8 +700,8 @@
                 </li>
 
                       <li>
-                          <div class="collapsable ">What is Ultifree Hosting?<i class="fas fa-plus collapsablePlusFAQ"></i></div>
-                          <div class="collapsableContent collapsableContentFAQ answer ">
+                          <div class="collapsable">What is Ultifree Hosting?<i class="fas fa-plus collapsablePlusFAQ"></i></div>
+                          <div class="collapsableContent collapsableContentFAQ answer">
                             <p>
                               Ultifree Hosting is a free website hosting service with unlimited disk space and unlimited bandwidth. It provides support for Wordpress and several E-Commerce solutions. The free plan is 100% free and all of client sites have no forced ads on them.
                             </p>
@@ -709,8 +709,8 @@
                       </li>
 
                       <li>
-                          <div class="collapsable ">Is Ultifree Hosting trustworthy? Where can I find reviews?<i class="fas fa-plus collapsablePlusFAQ"></i></div>
-                          <div class="collapsableContent collapsableContentFAQ answer ">
+                          <div class="collapsable">Is Ultifree Hosting trustworthy? Where can I find reviews?<i class="fas fa-plus collapsablePlusFAQ"></i></div>
+                          <div class="collapsableContent collapsableContentFAQ answer">
                             <p>
                               Ultifree Hosting has a page on <a href="https://www.trustpilot.com/review/ultifreehosting.com">TrustPilot</a> where you can find independent reviews by users. Additionally, Ultifree Hosting has reviews on <a href="https://www.hostsearch.com/review/ultifree-hosting-review.asp">HostSearch</a> and <a href="https://hostadvice.com/hosting-company/ultifree-hosting-reviews/">HostAdvice</a>.
                             </p>
@@ -718,8 +718,8 @@
                       </li>
 
                       <li>
-                          <div class="collapsable ">How can I advertise with you?<i class="fas fa-plus collapsablePlusFAQ"></i></div>
-                          <div class="collapsableContent collapsableContentFAQ answer ">
+                          <div class="collapsable">How can I advertise with you?<i class="fas fa-plus collapsablePlusFAQ"></i></div>
+                          <div class="collapsableContent collapsableContentFAQ answer">
                             <p>
                               If you, or your business, are interested in placing advertisements on our website to reach our users, please contact us at <a href="mailto=advertising@ultifreehosting.com">advertising@ultifreehosting.com</a> for more information.
                             </p>
@@ -727,8 +727,8 @@
                       </li>
 
                       <li>
-                          <div class="collapsable ">Why is your hosting free? What's the catch?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
-                          <div class="collapsableContent collapsableContentFAQ answer ">
+                          <div class="collapsable">Why is your hosting free? What's the catch?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
+                          <div class="collapsableContent collapsableContentFAQ answer">
                             <p>You might be wondering how is it that Ultifree Hosting is free. Are there some hidden costs?</p>
                             <p>Well, Ultifree Hosting is, in fact, 100% free without any hidden costs. Here's why:</p>
                             <h5>We have low costs:</h5>
@@ -741,8 +741,8 @@
                       </li>
 
                       <li>
-                          <div class="collapsable ">Attribution/Links for Images<i class="fas fa-plus collapsablePlusFAQ "></i></div>
-                          <div class="collapsableContent collapsableContentFAQ answer ">
+                          <div class="collapsable">Attribution/Links for Images<i class="fas fa-plus collapsablePlusFAQ "></i></div>
+                          <div class="collapsableContent collapsableContentFAQ answer">
                                 <p>Homepage Second CTA Background: <a rel="nofollow" href="http://www.freepik.com">Designed by upklyak / Freepik</a></p>
                                 <p>Homepage First CTA Background: <a rel="nofollow" href="https://www.freepik.com/photos/technology">Technology photo created by rawpixel.com - www.freepik.com</a></p>
                           </div>

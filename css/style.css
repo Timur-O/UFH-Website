@@ -979,6 +979,12 @@ code.inline {
     display: inline-block;
 }
 
+#no_results_text {
+    display: none;
+    color: orangered;
+    font-weight: bold;
+}
+
 /** Fonts **/
 
 /** Open-Sans - 300,600 **/

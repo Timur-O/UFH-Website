@@ -1,65 +1,109 @@
 //Collapsable JS
-var coll = document.getElementsByClassName("collapsable");
-var i;
+const collapsableElements = document.getElementsByClassName("collapsable");
 
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.maxHeight){
-      content.style.maxHeight = null;
-      if ($(content).hasClass('collapsableContentFAQ')) {
-        setTimeout(function() {content.style.display = "none";}, 150);
-      } else {
-        setTimeout(function() {content.style.display = "none";}, 1000);
-      }
-    } else {
-      content.style.display = "block";
-      content.style.maxHeight = content.scrollHeight + "px";
-    }
-  });
+for (let i = 0; i < collapsableElements.length; i++) {
+    collapsableElements[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        const content = this.nextElementSibling;
+        if (content.style.maxHeight) {
+            content.style.maxHeight = null;
+            if ($(content).hasClass('collapsableContentFAQ')) {
+                setTimeout(function() {content.style.display = "none";}, 150);
+            } else {
+                setTimeout(function() {content.style.display = "none";}, 1000);
+            }
+        } else {
+            content.style.display = "block";
+            content.style.maxHeight = content.scrollHeight + "px";
+        }
+    });
 }
 
 // FAQs JS
 function faqSearch() {
-  // Declare variables
-  var input, filter, ul, li, div, i, txtValue;
-  input = document.getElementById('searchBarFAQ');
-  filter = input.value.toUpperCase();
-  ul = document.getElementById("answersFAQ");
-  li = ul.getElementsByTagName('li');
+    const searchBox = document.getElementById("searchBarFAQ");
+    const searchTerm = searchBox.value.toLowerCase();
 
-  // Loop through all list items, and hide those who don't match the search query
-  hiddenCount = 1; // start at 1 to account for the text being pre hidden
-  for (i = 0; i < li.length; i++) {
-    div = li[i].getElementsByTagName("div")[0];
-    txtValue = li[i].getElementsByTagName("div")[0].textContent;
-    if (txtValue.toUpperCase().indexOf(filter) > -1) {
-      if (li[i].classList.contains("faq_section_head")) {
-        if (filter == "") {
-          li[i].style.display = "";
-        } else {
-          li[i].style.display = "none";
-          hiddenCount++;
+    const questionsAndAnswers = document.getElementById("answersFAQ");
+    const sectionHeaders = questionsAndAnswers.getElementsByClassName("faq_section_head");
+    const questions = questionsAndAnswers.getElementsByClassName("collapsable");
+
+    let numberOfResults = 0;
+
+    for (let i = 0; i < questions.length; i++) {
+        // Collapse all open questions
+        if (questions[i].classList.contains("active")) {
+            questions[i].classList.remove("active");
+            const questionContent = questions[i].nextElementSibling;
+            questionContent.style.maxHeight = null;
+            questionContent.style.display = "none";
         }
-      } else {
-        li[i].style.display = "";
-      }
-    } else {
-      li[i].style.display = "none";
-      hiddenCount++;
+
+        // Show normal FAQ page if empty search value
+        if (searchTerm === "") {
+            questions[i].style.display = "block";
+            numberOfResults = questions.length;
+        } else {
+            // Search for questions
+            const questionText = questions[i].textContent.toLowerCase();
+            const answerText = questions[i].nextElementSibling.textContent.toLowerCase();
+            if (questionText.search(searchTerm) === -1) {
+                if (answerText.search(searchTerm) === -1) {
+                    // Hide these questions => not found in question/answer
+                    questions[i].style.display = "none";
+                } else {
+                    // Found in answer, but not question
+                    numberOfResults++;
+                }
+            } else {
+                // Found in question
+                numberOfResults++;
+            }
+        }
     }
-  }
-  if (hiddenCount == document.getElementById("answersFAQ").children.length) {
-    document.getElementById('no_results_text').style.display = "";
-  } else {
-    document.getElementById('no_results_text').style.display = "none";
-  }
+
+    for (let i = 0; i < sectionHeaders.length; i++) {
+        if (searchTerm === "") {
+            sectionHeaders[i].style.display = "block";
+        } else {
+            const nextSiblings = getNextSiblingsWhoseFirstChildIsVisibleUntil(sectionHeaders[i], ".faq_section_head");
+            if (nextSiblings.length === 0) {
+                sectionHeaders[i].style.display = "none";
+            }
+        }
+    }
+
+    // Show or Hide "Not Found" Text
+    if (numberOfResults === 0) {
+        document.getElementById("no_results_text").style.display = "block";
+    } else {
+        document.getElementById("no_results_text").style.display = "none";
+    }
+}
+
+// Helper function to get next elements until
+function getNextSiblingsWhoseFirstChildIsVisibleUntil(elem, selector) {
+    let siblings = [];
+    let next = elem.nextElementSibling;
+
+    // Loop through all siblings
+    while (next) {
+        // If the matching item is found, quit
+        if (selector && next.matches(selector)) break;
+
+        // Otherwise, push to array
+        if (next.firstElementChild.style.display !== "none") {
+            siblings.push(next);
+        }
+
+        // Get the next sibling
+        next = next.nextElementSibling
+    }
+
+    return siblings;
 }
 
 $(document).ready(function(){
-    $('#no_results_text').hide();
-    
     $('a[href="#"]').click(function(e){
         e.preventDefault();
         $('nav').removeClass('visible');
@@ -73,5 +117,4 @@ $(document).ready(function(){
     if($(window).width() < 800){
         $('.pricing > div > div:nth-of-type(3)').insertAfter($('.pricing > div > div:nth-of-type(1)'));
     }
-
 });
