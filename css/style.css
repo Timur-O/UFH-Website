@@ -383,7 +383,7 @@ header .toggle-menu{
     /*float: right;*/
     width: calc(25% + 20px);
     margin: 40px -10px 0 -10px;
-    box-shadow: 0px 5px 20px -5px rgba(0,0,0,0.3);
+    box-shadow: 0 5px 20px -5px rgba(0,0,0,0.3);
     position: relative;
     z-index: 50;
 }
@@ -424,14 +424,14 @@ header .toggle-menu{
     background: #d4001ef2;
     cursor: pointer;
     text-decoration: none;
-    text-shadow: 0 0 0px black;
+    text-shadow: 0 0 0 black;
     font-weight: 600;
 }
 
 .CTAButton:hover{
     text-decoration: none;
     background: #d4001ce6;
-    text-shadow: 0 0 0px black;
+    text-shadow: 0 0 0 black;
 }
 
 .finalCTA{
@@ -510,7 +510,7 @@ footer .social a:hover{
       transition: 200ms;
   }
   header nav.visible{
-      left: 0px;
+      left: 0;
   }
   header nav ul li{
       display: block;
@@ -557,7 +557,7 @@ footer .social a:hover{
         transform: none;
     }
     .overview > div > div{
-        padding: 0px 20px;
+        padding: 0 20px;
     }
     .feature img{
         right: 65%;
@@ -628,7 +628,7 @@ footer .social a:hover{
         transition: 200ms;
     }
     header nav.visible{
-        left: 0px;
+        left: 0;
     }
     header nav ul li{
         display: block;
@@ -729,7 +729,7 @@ footer .social a:hover{
   float: right;
   display: inline-block;
   font-size: 20px;
-  padding: 1.5% 1% 0% 0%;
+  padding: 1.5% 1% 0 0;
 }
 
 .pricingPage {
@@ -803,7 +803,7 @@ footer .social a:hover{
   float: right;
   display: inline-block;
   font-size: 20px;
-  padding: 0.5% 1% 0% 0%;
+  padding: 0.5% 1% 0 0;
 }
 
 .collapsableContentFAQ {
@@ -856,9 +856,9 @@ footer .social a:hover{
   width: 80%;
   margin: auto;
   padding: 0.5%;
-  -webkit-box-shadow: 0px 0px 7px 0px grey;
-  -moz-box-shadow: 0px 0px 7px 0px grey;
-  box-shadow: 0px 0px 7px 0px grey;
+  -webkit-box-shadow: 0 0 7px 0 grey;
+  -moz-box-shadow: 0 0 7px 0 grey;
+  box-shadow: 0 0 7px 0 grey;
 }
 
 .announcement > h3 {
@@ -878,12 +878,12 @@ footer .social a:hover{
   width: 16%;
   float: right;
   font-size: 17px;
-  margin: 0% 1%;
+  margin: 0 1%;
   padding: 15px 15px 15px 15px;
   background: rebeccapurple;
   color: white;
   border-radius: 10px;
-  border: 0px #ababab solid;
+  border: 0 #ababab solid;
 }
 
 #domain_fieldset {
@@ -902,7 +902,7 @@ footer .social a:hover{
 }
 
 #domains_pricing_table th {
-  padding: 2% 0%;
+  padding: 2% 0;
   font-size: 20px;
 }
 
@@ -930,7 +930,7 @@ footer .social a:hover{
     padding: 2% 1%;
   }
   #domains_pricing_table th {
-    padding: 2% 0%;
+    padding: 2% 0;
     font-size: 12px;
   }
 }
@@ -963,7 +963,20 @@ footer .social a:hover{
 
 .trustpilot-widget {
   background-color: #b9b9b900 !important;
-  border: 0px solid #b9b9b900 !important;
+  border: 0 solid #b9b9b900 !important;
+}
+
+code {
+    background-color: lightgray;
+    border: 0;
+    padding: 3px;
+    border-radius: 3px;
+    font-family: monospace;
+    display: block;
+}
+
+code.inline {
+    display: inline-block;
 }
 
 /** Fonts **/

@@ -5,7 +5,7 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="utf-8">
-        <meta name="description" content="Knowledge Base. Find answers to all of your questions here, and if you still need help just open a support ticket!" />
+        <meta name="description" content="Knowledge Base. Find answers to all of your questions here, and if you still need help just contact support!" />
 
         <title>Knowledge Base - Ultifree Hosting</title>
 
@@ -15,7 +15,7 @@
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://ultifreehosting.com/faq" />
         <meta property="og:image" content="https://ultifreehosting.com/images/favicon.png" />
-        <meta property="og:description" content="Knowledge Base. Find answers to all of your questions here, and if you still need help just create a support ticket!" />
+        <meta property="og:description" content="Knowledge Base. Find answers to all of your questions here, and if you still need help just contact support!" />
 
         <script async src="js/blockadblock.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600" rel="stylesheet">
@@ -35,7 +35,7 @@
 
               <input type="text" id="searchBarFAQ" onkeyup="faqSearch();" placeholder="Search knowledge base...">
               <p>
-                If you can't find the answer to your question here try opening a support ticket. To check the status of our services visit our <a href="https://stats.uptimerobot.com/lpAKPSoX36">Status Page</a>.
+                If you can't find the answer to your question here try contacting support. To check the status of our services visit our <a href="https://stats.uptimerobot.com/lpAKPSoX36">Status Page</a>.
               </p>
 
               <br />
@@ -43,7 +43,62 @@
               <br />
 
               <ul id="answersFAQ">
-                <span id="no_results_text">No results found. Try opening a support ticket.</span>
+                <span id="no_results_text">No results found. Try contacting support.</span>
+
+                <li class="faq_section_head">
+                    <div class="faq_section_head_child">Getting Started</div>
+                </li>
+
+                      <li>
+                          <div class="collapsable ">How can I get free hosting?<i class="fas fa-plus collapsablePlusFAQ"></i></div>
+                          <div class="collapsableContent collapsableContentFAQ answer ">
+                            <p>
+                              Three simple steps! We promise that free hosting is and will always stay free.
+                            </p>
+                            <p>
+                                1. Create an account!
+                            </p>
+                            <p>
+                                2. Choose the free website domain you like.
+                            </p>
+                            <p>
+                                3. Upload your files via FTP or the online file manager.
+                            </p>
+                          </div>
+                      </li>
+
+                      <li>
+                          <div class="collapsable ">How do I migrate/transfer my website to Ultifree Hosting?<i class="fas fa-plus collapsablePlusFAQ"></i></div>
+                          <div class="collapsableContent collapsableContentFAQ answer ">
+                            <p>
+                              If your website doesn't use MySQL databases, moving your site is very easy. Simply upload all your files to the ‘htdocs’ folder on your hosting account. If you have a PHP based website, check if it has any configuration files where a domain name or file path needs to be set. Update these values as necessary. If your website is using MySQL databases, you need to move the database contents as well and update the configuration of your website to use the database. In order to do this follow these steps:
+                            </p>
+                            <p>
+                              1. Backup the database on the old host. Either use your current provider's MySQL Back Up tool, or if that isn't available log into phpMyAdmin, select your database, and click on the 'Export' tab. Save the file as 'gzipped'.
+                            </p>
+                            <p>
+                              2. Create a database on your hosting account. Go to your website's control panel, click on MySQL Databases, and create your new database there.
+                            </p>
+                            <p>
+                              3. Enter phpMyAdmin on your hosting account account, then click on the 'import' tab, find the backup files of your database and click go. Please be patient as if your database is large, it can take quite some time.
+                            </p>
+                            <p>
+                              4. Now update your configuration files. On Wordpress find the wp-config.php file. Update the database host, username, and password values. These can be found in your control panel, whereas your password is the same one that you use for your control panel account.
+                            </p>
+                          </div>
+                      </li>
+
+                      <li>
+                          <div class="collapsable ">How long until my account is active?<i class="fas fa-plus collapsablePlusFAQ"></i></div>
+                          <div class="collapsableContent collapsableContentFAQ answer ">
+                            <p>
+                              If your account is currently "processing", then within the next 15 minutes you will have been allocated a server and your website will be ready to use!
+                            </p>
+                            <p>
+                                If your account is "processing" for longer than 15 minutes, please contact support! Please note that sometimes your website will not be visible within 15 minutes (due to DNS propagation), in this case try accessing your website with "www." before the URL.
+                            </p>
+                          </div>
+                      </li>
 
                 <li class="faq_section_head">
                     <div class="faq_section_head_child">Account Management</div>
@@ -89,7 +144,7 @@
                               2. Make sure you have no active hosting accounts.
                             </p>
                             <p>
-                              3. Head to the <a href="https://app.ultifreehosting.com/dashboard/settings">settings</a> section
+                              3. Head to the <a href="https://app.ultifreehosting.com/dashboard/settings">settings</a> section.
                             </p>
                             <p>
                               4. Click the "Close Account" button.
@@ -132,13 +187,13 @@
                               To clean your account manually you can do the following:
                             </p>
                             <p>
-                              1. Log into your control panel.
+                              1. Log into your control panel (via the dashboard).
                             </p>
                             <p>
                               2. Go to the Addon Domains, Parked Domains, and Subdomains then delete all your domains in these sections.
                             </p>
                             <p>
-                              3. Go to Email Accounts, Forwarders, and MySQL Databases then delete everything in these sections.
+                              3. Go to MySQL Databases then delete everything in this section.
                             </p>
                             <p>
                               4. Go to Softaculous and in the Installed Apps section delete everything.
@@ -147,14 +202,14 @@
                               5. Go to SiteBuilders and delete all the sitebuilders in your account.
                             </p>
                             <p>
-                              6. Connect to the File Manager or FTP, then go to your htdocs folder and delete everything inside this folder. (Do this for all your domain folders.)
+                              6. Connect to the File Manager or FTP, then go to your <code class="inline">htdocs</code> folder and delete everything inside this folder (do this for all your domain folders).
                             </p>
                             <p>
                               By doing this you'll have deleted almost everything in your account, except certain protected folders and files. Now you can restart your project.
                             </p>
                             <h5>Create a new hosting account</h5>
                             <p>
-                              Creating a new hosting account will allow you to restart with a clean slate. Simply log into your <a href="https://app.ultifreehosting.com">dashboard</a> and create a new hosting account as usual.
+                              Creating a new hosting account will also allow you to restart with a clean slate. Simply log into your <a href="https://app.ultifreehosting.com">dashboard</a> and create a new hosting account as usual.
                             </p>
                           </div>
                       </li>
@@ -166,20 +221,20 @@
                               Thank you for upgrading! Now that you've upgraded your account there are a few important things you need to know.
                             </p>
                             <p>
-                              Firstly, you are now a customer of iFastNet, which sponsors Ultifree Hosting and provides the premium hosting services. Premium hosting comes with a seperate support system which can be found here: http://support.ifastnet.com/. Please note that you will need to create an account in the ticketing system to access it. Generally, iFastNet will respond to questions within about 15 minutes 24/4, so you shouldn't be worried about any delays.
+                              Firstly, you are now a customer of iFastNet, which sponsors Ultifree Hosting and provides the premium hosting services. Premium hosting comes with a seperate support system which can be found here: <a href="http://support.ifastnet.com">http://support.ifastnet.com</a>". Please note that you will need to create an account in the ticketing system to access it. Generally, iFastNet will respond to questions within about 15 minutes, so you shouldn't be worried about any delays.
                             </p>
                             <h5>Migrating your account to premium</h5>
                             <p>
-                              Most importantly, although iFastNet's premium hosting integrates well with Ultifree Hosting, <b>free hosting accounts won't automatically be migrated to your premium hosting</b>.
+                              Most importantly, although iFastNet's premium hosting integrates well with Ultifree Hosting, <u>free hosting accounts won't automatically be migrated to your premium hosting</u>.
                             </p>
                             <p>
                               Luckily, iFastNet can migrate your account at anytime, even if your account is suspended! To do so please do the following:
                             </p>
                             <p>
-                              1. Create an account on the premium support portal (http://support.ifastnet.com/)
+                              1. Create an account on the premium support portal (<a href="http://support.ifastnet.com">http://support.ifastnet.com</a>).
                             </p>
                             <p>
-                              2. Create a new support ticket, but remember to include your domain name of your new account and the invoice number of your premium order.
+                              2. Create a new support ticket, but remember to include the domain name of your new account and the invoice number of your premium order.
                             </p>
                             <p>
                               3. In your message, clearly say that you would like to have your account migrated from free hosting and include your hosting account username (eg. ultif_19483223).
@@ -203,7 +258,7 @@
                           <div class="collapsable ">Where can I find help?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>
-                              You can try checking the other information available here on the FAQs page, and if you can't find the information you need here, then simply head to your control panel and open a support ticket.
+                              You can try checking the other information available here on the FAQs page. If you can't find the information you need, then contact support!
                             </p>
                           </div>
                       </li>
@@ -235,7 +290,7 @@
                           <div class="collapsable ">How can I upload my files?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>
-                              There are two ways. Firstly, you can download an FTP client, which you can find on the "Free FTP Software" from the "Files" section in your VistaPanel. Secondly, you can use our free "Online File Manager" also in your VistaPanel.
+                              There are two ways. Firstly, you can download an FTP client (eg. FileZilla). Secondly, you can use our free "Online File Manager", which you can find by clicking "File Manager" in the dashboard.
                             </p>
                           </div>
                       </li>
@@ -244,7 +299,7 @@
                           <div class="collapsable ">Why is my file is vanishing instantly after I upload it?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>
-                              The reason for this is probably that the file is larger than 10MB. On the free hosting plan there is a per file upload limit of 10MB, meaning you can upload an unlimited number of files, but each of these files must be less than or equal to 10MB in size. There is no way to increase the upload limit (even temporarily) at the moment.
+                              The reason for this is probably that the file is larger than 10MB. On the free hosting plan there is a <u>per file upload limit of 10MB</u>, meaning you can upload an unlimited number of files, but each of these files must be less than or equal to 10MB in size. There is no way to increase the upload limit (even temporarily) at the moment.
                             </p>
                           </div>
                       </li>
@@ -253,7 +308,7 @@
                           <div class="collapsable ">How can I use FTP?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>
-                              You can view the Wired tutorial on how to setup and use FTP to manage your files <a href="https://www.ostraining.com/blog/coding/filezilla-beginner/" target="_blank">here</a>.
+                              You can view a tutorial on how to setup and use FTP to manage your files <a href="https://www.ostraining.com/blog/coding/filezilla-beginner/" target="_blank">here</a>.
                             </p>
                           </div>
                       </li>
@@ -262,7 +317,7 @@
                           <div class="collapsable ">Is there a file/upload size limit?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>
-                              There is a per file size limit of 10MB. <strong>Please note this is not a total disk space limit, only a per file limit.</strong> Please do not try to raise this limit through your PHP settings as it is enforced on the file system level.
+                              There is a per file size limit of 10MB. Please note this is <u>not</u> a total disk space limit, only a <u>per file limit</u>. Please do not try to raise this limit through your PHP settings as it is enforced on the file system level.
                             </p>
                             <h5>Can the file size limit be increased?</h5>
                             <p>
@@ -295,12 +350,17 @@
                       </li>
 
                       <li>
+                          <div class="collapsable">I changed my nameservers, but I'm still getting an error! Why?<i class="fas fa-plus collapsablePlusFAQ"></i></div>
+                          <div class="collapsableContent collapsableContentFAQ answer">
+                            <p>Due to DNS propagation, it takes some time before all the servers on the internet find out that you changed your nameservers. Sometimes this process can take up to 72 hours (usually less than an hour).</p>
+                            <p>Please only contact support after 72 hours, since waiting is the most common solution!</p>
+                          </div>
+                      </li>
+
+                      <li>
                           <div class="collapsable">Why are your nameservers not registered?<i class="fas fa-plus collapsablePlusFAQ"></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer">
-                              <p>This is a common error with GoDaddy and NameCheap hosted domains. Please try using these nameservers:</p>
-                              <p>- ns1.byet.org</p>
-                              <p>- ns2.byet.org</p>
-                              <p>If you are still encountering an error, there are some domain registries which force a nameserver check, in this case, you cannot use your domain with our services.</p>
+                              <p>There are some domain registries which force a nameserver check, in this case, you cannot use your domain with our services.</p>
                               <p>A non-exhaustive list of these domain extensions is as follows:</p>
                               <p>- .com.br</p>
                               <p>- .de</p>
@@ -313,7 +373,7 @@
                       <li>
                           <div class="collapsable">My domain contains a banned phrase, what do I do?<i class="fas fa-plus collapsablePlusFAQ"></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer">
-                              <p>Some phrases are banned on our services due to excessive phishing attempts. If you believe your domain requires an exception, please contract support via the chat feature.</p>
+                              <p>Some phrases are banned on our services due to excessive phishing attempts. If you believe your domain requires an exception, please contact support.</p>
                           </div>
                       </li>
 
@@ -324,8 +384,8 @@
                             <p>1. Open your control panel through the dashboard</p>
                             <p>2. Scroll to the "Advanced" section</p>
                             <p>3. Click on "CNAME Records"</p>
-                            <p>4. In source enter the <strong>subdomain</strong> (<strong>thispart</strong>.yourwebsite.com) part of your domain which you would like to attach the CNAME record to. If you are attempting to verify an SSL certificate, this is usually "_acme-challenge"</p>
-                            <p>5. Then in the destination box, enter the location to which the CNAME record should point. If you are attempting to verify an SSL certificate, this is usually something similar to "uniquecode.acme.ultifreehosting.com"</p>
+                            <p>4. In source enter the subdomain (<u>thispart</u>.yourwebsite.com) part of your domain which you would like to attach the CNAME record to. If you are attempting to verify an SSL certificate, this is usually <code class="inline">_acme-challenge</code></p>
+                            <p>5. Then in the destination box, enter the location to which the CNAME record should point. If you are attempting to verify an SSL certificate, this is usually something similar to <code class="inline">uniquecode.acme.ultifreehosting.com</code></p>
                             <p>6. Finally, click "Add"</p>
                             <p>Now the CNAME record is setup! It may take a few minutes before it starts working, so please be patient.</p>
                           </div>
@@ -335,8 +395,8 @@
                           <div class="collapsable">How can I find the IP address of my hosting account?<i class="fas fa-plus collapsablePlusFAQ"></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer">
                             <p>If you want to find out the IP address of your hosting account, then do the following:</p>
-                            <p>1. Open your control panel through the dashboard</p>
-                            <p>2. Under "Account Details" on the right panel of the control panel, find where it says "Main Domain"</p>
+                            <p>1. Open the dashboard</p>
+                            <p>2. Under "Account Details", find where it says "Main Domain"</p>
                             <p>3. Copy the URL there</p>
                             <p>4. Open this website: <a href="https://toolbox.googleapps.com/apps/dig/" target="_blank">https://toolbox.googleapps.com/apps/dig/</a></p>
                             <p>5. Paste the URL into the box and press the button that says "A"</p>
@@ -348,7 +408,7 @@
                           <div class="collapsable ">How do I get $1 off my first domain purchase with Ultifree Hosting?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>
-                              Got to the <a href="/domains.php">domains page</a> on our website, then enter your dream domain in the search. Then at checkout use the following code: "ultifree1$".
+                              Got to the <a href="/domains.php">domains page</a> on our website, then search for your dream domain. At checkout use the following code: "ultifree1$".
                             </p>
                           </div>
                       </li>
@@ -361,21 +421,21 @@
                       <li>
                           <div class="collapsable ">How do I use or get SSL Certificates?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
-                            <h4>I already have a certificate:</h4>
-                            <p>1. Open your <strong>Control Panel</strong>, click on the <strong>"SSL/TLS"</strong> section.</p>
-                            <p>2. Click on <strong>"Configure"</strong> next to the domain you'd like to add the certificate to.</p>
-                            <p>3. Paste your <strong>private key</strong> into the <strong>Private Key Field</strong> and click <strong>"Upload Key"</strong> (Including the first and last lines - eg. "---BEGIN PRIVATE KEY--").</p>
-                            <p>4. Paste your <strong>certificate</strong> into the <strong>Certificate Field</strong> and click <strong>"Upload Certificate"</strong> (Including the first and last lines - eg. "---BEGIN CERTIFICATE--").</p>
+                            <h5>I already have a certificate:</h5>
+                            <p>1. Open your Control Panel, click on the SSL/TLS section.</p>
+                            <p>2. Click on "Configure" next to the domain you'd like to add the certificate to.</p>
+                            <p>3. Paste your private key into the Private Key Field and click "Upload Key" (Including the first and last lines - eg. <code class="inline">---BEGIN PRIVATE KEY---</code>).</p>
+                            <p>4. Paste your certificate into the Certificate Field and click "Upload Certificate" (Including the first and last lines - eg. <code class="inline">---BEGIN CERTIFICATE---</code>).</p>
                             <p>Now your certificate is installed, wait 1-2 minutes, access your website using https:// and your website should be secure!</p>
                             <h5>Notes:</h5>
                             <ul>
                                 <li>Free hosting only supports 2048 bit keys. If your tool generates 4096 bit keys these won't work on free hosting and you will have to regenerate your key and certificate.</li>
                                 <li>There is a CSR box. You don't need to upload anything into this box. It may be empty or contain old data. This will not affect your certificate.</li>
                             </ul>
-                            <h4>I don't have a certificate yet:</h4>
+                            <h5>I don't have a certificate yet:</h5>
                             <p>Open the "SSL Certificate" section in the dashboard and generate a certificate. Once this is complete, follow the instructions above.</p>
 
-                            <h4>Using Cloudflare:</h4>
+                            <h5>Using Cloudflare:</h5>
                             <p>Cloudflare is a great way to get a free SSL certificate. Using cloudflare's system you don't even have to manage the certificates yourself. In order make use of this service do the following:</p>
                             <p>1. Create a Cloudflare account and connect your domain.</p>
                             <p>2. Go into the SSL/TSL settings menu.</p>
@@ -389,24 +449,24 @@
                           <div class="collapsable ">How do I force all traffic to HTTPS?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>Now that you have SSL on your website, you will want to make sure to redirect all your visitors to the secure version of your website.</p>
-                            <h5>Using Cloudflare Settings:</h5>
-                            <p>1. Log into your Cloudflare dashboard</p>
-                            <p>2. Go to the SSL/TSL settings menu</p>
-                            <p>3. Click on "Edge Certificates" in the submenu</p>
-                            <p>4. Scroll down to "Always use HTTPS"</p>
-                            <p>5. Flip the switch to "On"</p>
-                            <h5>Using A <code>.htaccess</code> File</h5>
+                            <h5>Using your Cloudflare settings:</h5>
+                            <p>1. Log into your Cloudflare dashboard.</p>
+                            <p>2. Go to the SSL/TSL settings menu.</p>
+                            <p>3. Click on "Edge Certificates" in the submenu.</p>
+                            <p>4. Scroll down to "Always use HTTPS".</p>
+                            <p>5. Flip the switch to "On".</p>
+                            <h5>Using a .htaccess file:</h5>
                             <p>This is probably the most common way of forcing HTTPS. To force HTTPS do the following:</p>
-                            <p>1. Find your <code>.htaccess</code> file in your htdocs folder - if there isn't one, create a new one</p>
-                            <p>2. Click edit if in the online file manager, or download the file and open it using notepad or a similar program</p>
+                            <p>1. Find your <code class="inline">.htaccess</code> file in your htdocs folder - if there isn't one, create a new one.</p>
+                            <p>2. Click edit if in the online file manager, or download the file and open it using notepad or a similar program.</p>
                             <p>3. Add the following lines to the file:</p>
                             <code>
                               RewriteEngine On <br />
-                              RewriteCond %{HTTP:X-Forwarded-Proto} =http <br />
+                              RewriteCond %{HTTP:X-Forwarded-Proto} = http <br />
                               RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
                             </code>
-                            <p>4. Save and upload your .htaccess file into your htdocs folder</p>
-                            <p>If you get a Error 500 - Internal Sever Error after doing this, then you have an error in your <code>.htaccess</code> file. Please open it and check to make sure everything is correct.</p>
+                            <p>4. Save and upload your .htaccess file into your htdocs folder.</p>
+                            <p>If you get a Error 500 - Internal Sever Error after doing this, then you have an error in your <code class="inline">.htaccess</code> file. Please open it and check to make sure everything is correct.</p>
                             <p><b>Note:</b> If any of your files/assets go missing on your website, that means the link was probably "http" not "https". Simply change their URLs to use "https", which should fix this problem.</p>
                           </div>
                       </li>
@@ -414,7 +474,7 @@
                   <li>
                       <div class="collapsable ">How do I renew my free SSL certificate?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
                       <div class="collapsableContent collapsableContentFAQ answer ">
-                        <p>Due to the nature of how SSL certificates are created (they contain the expiry date within their code), to "renew" you SSL certificate you will need to generate a new one when your previous certificate expires.</p>
+                        <p>Due to the nature of how SSL certificates are created (they contain the expiry date within their code), to "renew" your SSL certificate you will need to generate a new one when your previous certificate expires.</p>
                       </div>
                   </li>
 
@@ -431,11 +491,19 @@
                 </li>
 
                       <li>
+                          <div class="collapsable ">Is email available on free hosting accounts?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
+                          <div class="collapsableContent collapsableContentFAQ answer ">
+                            <p>No, due to severe spam issues, email accounts have been disabled on free hosting account.</p>
+                            <p>If you require email, please upgrade to one of our <a href="https://ifastnet.com/portal/aff.php?aff=26864&pid=store" onclick="iFastNetEvent('FAQ', 'General');">Premium Plans</a>. We provide you with unlimited email accounts, powerful spam filters to protect your accounts, and access to 3 webmail clients (RoundCube, Horde and SquirrelMail) if you upgrade!</p>
+                          </div>
+                      </li>
+
+                      <li>
                           <div class="collapsable ">Is IMAP, POP and SMTP available on free hosting accounts?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>To use your own email software (such as Outlook), you need to have POP, IMAP or SMTP on your hosting account to access your email accounts.</p>
-                            <p>Unfortunately, on free hosting accounts IMAP, POP and SMTP are unavailable. The only way to access your inbox being through our Webmail client, accessible through your contol panel.</p>
-                            <p><a href="https://ifastnet.com/portal/aff.php?aff=26864&pid=store" onclick="iFastNetEvent('FAQ', 'General');">Premium hosting</a> supports POP, IMAP and SMTP, allowing you to use your own email software. In addition, you also get unlimited email accounts, powerful spam filters to protect your accounts, and access to 2 more webmail clients (Horde and SquirrelMail) in addition to the current RoundCude client.</p>
+                            <p>Unfortunately, on free hosting accounts IMAP, POP and SMTP are unavailable.</p>
+                            <p><a href="https://ifastnet.com/portal/aff.php?aff=26864&pid=store" onclick="iFastNetEvent('FAQ', 'General');">Premium hosting</a> supports POP, IMAP and SMTP, allowing you to use your own email software. In addition, you also get unlimited email accounts, powerful spam filters to protect your accounts, and access to 3 webmail clients (RoundCube, Horde and SquirrelMail).</p>
                           </div>
                       </li>
 
@@ -456,14 +524,10 @@
                       <li>
                           <div class="collapsable ">How do I create custom .htaccess rules?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
-                            <p>Creating .htaccess rules allows you affect your website in powerful ways such as custom error pages, pretty URLs, and much more. There are many guides online on using the .htaccess file.</p>
-                            <p>So how do I set my own .htaccess rules?</p>
-                            <h5>Create the .htaccess file in you htdocs directory</h5>
-                            <p>Your main domain is attached to the "htdocs/" folder. Addon domains and subdomains are attached to folders like "example.com/htdocs/". In these folders you can create your .htaccess file.</p>
-                            <p>A .htaccess file begins with a dot and doesn't have a file extension, therefore Windows often has problems with such files as it hides them and other such things. To avoid this we recommend creating your .htaccess file through the File Manager in your control panel instead.</p>
-                            <h5>Do not edit the main .htaccess file</h5>
-                            <p>In the root folder of your account there is also a .htaccess file. Please do not edit, delete or do anything with this file. Generally, you shouldn't be able to anyway. You should be able to override all the rules in this file through your own .htaccess file in htdocs.</p>
-                            <p>If you do manage to delete the main .htaccess file don't worry. Your website will continue working normally.</p>
+                            <p>Creating .htaccess rules allows you manage your website in powerful ways such as by creating custom error pages, pretty URLs, and much more. There are many guides online on using the .htaccess file.</p>
+                            <h5>Creating the .htaccess file in you htdocs directory:</h5>
+                            <p>Your main domain is attached to the <code class="inline">htdocs/</code> folder. Addon domains and subdomains are attached to folders like <code class="inline">example.com/htdocs/</code>. In these folders you can create your <code class="inline">.htaccess</code> file.</p>
+                            <p>A <code class="inline">.htaccess</code> file begins with a dot and doesn't have a file extension, therefore Windows often has problems with such files as it hides them and other such things. To avoid this we recommend creating your <code class="inline">.htaccess</code> file through the File Manager in your control panel instead.</p>
                           </div>
                       </li>
 
@@ -471,7 +535,16 @@
                           <div class="collapsable ">Can I use sockets?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>
-                              Yes you can use socket functions (fsocketopen() etc..), however, access is limited to prevent abuse. For example, only a small set of default ports are open for sockets. Additional ports cannot be opened.
+                              Yes, you can use socket functions (eg. <code class="inline">fsocketopen()</code> etc..), however, access is limited to prevent abuse. For example, only a small set of default ports are open for sockets. Additional ports cannot be opened.
+                            </p>
+                          </div>
+                      </li>
+
+                      <li>
+                          <div class="collapsable ">What PHP version do you provide?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
+                          <div class="collapsableContent collapsableContentFAQ answer ">
+                            <p>
+                                Currently, we only offer PHP version 7.4. It is not possible to upgrade the PHP version on your account. We are working on upgrading to PHP 8, and we will let you know once that happens!
                             </p>
                           </div>
                       </li>
@@ -519,7 +592,7 @@
                               While it is possible to run Laravel on a free hosting plan, as Laravel is generally not designed to be run on shared website hosting, you will run into some limitations. If you don't mind these then simply follow these steps to setup Laravel:
                             </p>
                             <ol>
-                                <li>Upload all the Laravel files (along with dependencies or 'vendor' folder) to the htdocs folder of your website using an FTP client such as FileZilla.</li>
+                                <li>Upload all the Laravel files (along with all dependencies or the <code class="inline">vendor</code> folder) to the <code class="inline">htdocs</code> folder of your website using an FTP client such as FileZilla.</li>
                                 <li>Create a .htaccess file in the htdocs folder with the following contents: 
                                   <br> 
                                   <code>
@@ -529,12 +602,12 @@
                                   </code>
                                 </li>
                                 <li>Create a database in the SQL Databases section of the control panel, then use the Import/Export feature in PHPMyAdmin to import the Database.</li>
-                                <li>Update database settings in .env file.</li>
+                                <li>Update the database settings in the <code class="inline">.env</code> file.</li>
                             </ol>
                             <p>As mentioned above you will run into certain limitations. These include:</p>
                             <ul>
                                 <li>No access to the artisan CLI</li>
-                                <li>No preperation of static files (Laravel Mix) on the hosting server</li>
+                                <li>No preparation of static files (Laravel Mix) on the hosting server</li>
                                 <li>No Composer dependency installation directly on the hosting server</li>
                                 <li>No InnoDB support</li>
                                 <li>No automatic Git deployment</li>
@@ -546,7 +619,7 @@
                           <div class="collapsable ">Why do I see ?i=1 at the end of a URL?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>
-                              When you open your website for the first time you may see "?i=1" at the end of your URL. This extra URL parameter is there due to a browser validation tool used to make sure that your website is only accessed by regular web browsers. Unfortunately, for security reasons, this security system is mandatory on all free sites. It can be removed by <a href="https://ifastnet.com/portal/aff.php?aff=26864&pid=store" onclick="iFastNetEvent('FAQ', 'General');">purchasing a premium plan</a>.
+                              When you open your website for the first time you may see <code class="inline">?i=1</code> at the end of your URL. This extra URL parameter is there due to a browser validation tool used to make sure that your website is only accessed by regular web browsers. Unfortunately, for security reasons, this security system is mandatory on all free sites. It can be removed by <a href="https://ifastnet.com/portal/aff.php?aff=26864&pid=store" onclick="iFastNetEvent('FAQ', 'General');">purchasing a premium plan</a>.
                             </p>
                           </div>
                       </li>
@@ -555,60 +628,10 @@
                           <div class="collapsable ">What is Cloudflare?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>
-                              Cloudflare is a website acceleration and security service. Cloudflare caches and optimizes the content from your website, and when turned on, visitors will connect to one of Cloudflare's severs around the world instead of to your hosting account. As Cloudflare has many more servers all around the world, your website will load faster. Additionally, Cloudflare can block DDOS attacks or provide your website with a shared SSL certificate.
-                            </p>
-                          </div>
-                      </li>
-
-                      <li>
-                          <div class="collapsable ">Cloudflare Limitations<i class="fas fa-plus collapsablePlusFAQ "></i></div>
-                          <div class="collapsableContent collapsableContentFAQ answer ">
-                            <p>
-                              Although you can easily activate cloudflare through the 'cloudflare' section of your control panel, there are some limitations to our integration:
+                              Cloudflare is a website acceleration and security service. Cloudflare caches and optimizes the content from your website, and when turned on, visitors will connect to one of Cloudflare's severs around the world instead of to our server with your hosting account on it. As Cloudflare has many more servers all around the world, your website will load faster. Additionally, Cloudflare can block DDOS attacks or provide your website with a shared SSL certificate (which you don't need to manually renew).
                             </p>
                             <p>
-                              1. Cloudflare can only be used with custom domains. Currently, cloudflare does not support free subdomains on their service.
-                            </p>
-                            <p>
-                              2. Our Mailservers and Cloudflare do not work well together. If you set MX Records and connect to cloudflare, mail will not arrive to your inbox, nor will you be able to send mail.
-                            </p>
-                            <p>
-                              A solution to these two limitations would be to integrate your domain with cloudflare directly by going to their <a href="https://cloudflare.com">website</a> and adding your domain through there.
-                            </p>
-                          </div>
-                      </li>
-
-
-                <li class="faq_section_head">
-                    <div class="faq_section_head_child">Getting Started</div>
-                </li>
-
-                      <li>
-                          <div class="collapsable ">How can I get free hosting?<i class="fas fa-plus collapsablePlusFAQ"></i></div>
-                          <div class="collapsableContent collapsableContentFAQ answer ">
-                            <p>
-                              Simply, create an account, choose the free website domain you need and start to create your website with full PHP and MySQL support. Upload your files via FTP or the online file manager. We promise that free hosting is and will always stay free.
-                            </p>
-                          </div>
-                      </li>
-
-                      <li>
-                          <div class="collapsable ">How do I migrate/transfer my website to Ultifree Hosting?<i class="fas fa-plus collapsablePlusFAQ"></i></div>
-                          <div class="collapsableContent collapsableContentFAQ answer ">
-                            <p>
-                              If your website doesn’t use MySQL databases, moving your site is very easy. Simply upload all your files to the ‘htdocs’ folder on your hosting account. If you have a PHP based website, check if it has any configuration files where a domain name or file path needs to be set. Update these values as necessary. If your website is using MySQL databases, you need to move the database contents as well and update the configuration of your website to use the database. In order to do this follow these steps:
-                            </p>
-                            <p>
-                              1. Backup the database on the old host. Either use your current provider's MySQL Back Up tool, or if that isn't available log into phpMyAdmin, select your database, and click on the 'Export' tab. Save the file as 'gzipped'.
-                            </p>
-                            <p>
-                              2. Create a database on your hosting account. Go to your website's control panel, click on MySQL Databases, and create your new database there.
-                            </p>
-                            <p>
-                              3. Enter phpMyAdmin on your hosting account account, then click on the 'import' tab, find the backup files of your database and click go. Please be patient as if your database is large, it can take quite some time.
-                            </p>
-                            <p>
-                              4. Now update your configuration files. On Wordpress find the wp-config.php file. Update the database host, username, and password values. These can be found in your control panel, whereas your password is the same one that you use for your control panel account.
+                              To integrate your domain with cloudflare, head directly by going to their <a href="https://cloudflare.com">website</a> and add your domain there (generally their system should auto-detect all settings).
                             </p>
                           </div>
                       </li>
@@ -648,7 +671,7 @@
                           <div class="collapsable">How much will I be paid for a free signup?<i class="fas fa-plus collapsablePlusFAQ"></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>
-                              Currently, a free signup will earn you $0.50. Although this is a much smaller payment than other affiliate programs, in this case you are being paid for promoting a free product. This means you will be able to achieve a much higher conversion rate (often as high as 80%), compared to promoting a paid product.
+                              Currently, a free signup will earn you EUR 0.50. Although this is a much smaller payment than other affiliate programs, in this case you are being paid for promoting a free product. This means you will be able to achieve a much higher conversion rate (often as high as 80%), compared to promoting a paid product.
                             </p>
                           </div>
                       </li>
@@ -657,7 +680,7 @@
                           <div class="collapsable">What is the minimum payout?<i class="fas fa-plus collapsablePlusFAQ"></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>
-                              The minimum payout amount is $35. If the amount is less than $35 for a specific month, then you'll receive the cumulative payouts within the first week of the month in which the payments will be equal or exceed $35.
+                              The minimum payout amount is EUR 35. If the amount is less than EUR 35 for a specific month, then you'll receive the cumulative payouts within the first week of the month in which the payments will be equal or exceed EUR 35.
                             </p>
                           </div>
                       </li>
@@ -690,11 +713,6 @@
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>
                               Ultifree Hosting has a page on <a href="https://www.trustpilot.com/review/ultifreehosting.com">TrustPilot</a> where you can find independent reviews by users. Additionally, Ultifree Hosting has reviews on <a href="https://www.hostsearch.com/review/ultifree-hosting-review.asp">HostSearch</a> and <a href="https://hostadvice.com/hosting-company/ultifree-hosting-reviews/">HostAdvice</a>.
-                              <!-- TrustBox widget - Review Collector -->
-                              <div class="trustpilot-widget" data-locale="en-US" data-template-id="56278e9abfbbba0bdcd568bc" data-businessunit-id="5fb7f38c5f863a0001bad8ba" data-style-height="52px" data-style-width="100%">
-                                <a href="https://www.trustpilot.com/review/ultifreehosting.com" target="_blank" rel="noopener" onclick="ga('send', 'event', 'TrustPilot', 'visit');">Trustpilot</a>
-                              </div>
-                              <!-- End TrustBox widget -->
                             </p>
                           </div>
                       </li>
@@ -713,11 +731,11 @@
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>You might be wondering how is it that Ultifree Hosting is free. Are there some hidden costs?</p>
                             <p>Well, Ultifree Hosting is, in fact, 100% free without any hidden costs. Here's why:</p>
-                            <h5>We have low costs</h5>
-                            <p>Ultifree Hosting is powered by iFastNet.  Over the last decade, iFastNet has been developing a unique cloud hosting solution. With it, they managed to host a lot more accounts per server than would have been possible with traditional hosting software, while still keeping websites as fast or even faster than other hosting providers. Thus, our server costs are low.</p>
-                            <h5>We make money using ads</h5>
-                            <p>We have ads on our homepage and in the control panel. Also iFastNet insall their own ads such as the upgrade offers in your control panel. We will never force ads onto your websites. Your website is your own and costs are low enough that any decent free hosting provider shouldn't need to put ads on your site.</p>
-                            <h5>We have fair usage restrictions</h5>
+                            <h5>We have low costs:</h5>
+                            <p>Ultifree Hosting is powered by iFastNet. Over the last decade, iFastNet has been developing a unique cloud hosting solution. With it, they managed to host a lot more accounts per server than would have been possible with traditional hosting software, while still keeping websites as fast or even faster than other hosting providers. Thus, our server costs are low.</p>
+                            <h5>We make money using ads:</h5>
+                            <p>We have ads on our homepage and in the control panel. Additionally, iFastNet install their own ads such as the upgrade offers in your control panel. We will never force ads onto your websites. Your website is your own and costs are low enough that any decent free hosting provider shouldn't need to put ads on your site.</p>
+                            <h5>We have fair usage restrictions:</h5>
                             <p>Ultifree Hosting is great for hobby sites and experiments. However, high traffic or complex sites aren't suitable in order to make sure no account uses huge amounts of server power and hogs it all. These rules help to keep everything fair and provide quality free hosting to everyone.</p>
                           </div>
                       </li>
