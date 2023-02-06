@@ -712,7 +712,7 @@
                           <div class="collapsable">Is Ultifree Hosting trustworthy? Where can I find reviews?<i class="fas fa-plus collapsablePlusFAQ"></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer">
                             <p>
-                              Ultifree Hosting has a page on <a href="https://www.trustpilot.com/review/ultifreehosting.com">TrustPilot</a> where you can find independent reviews by users. Additionally, Ultifree Hosting has reviews on <a href="https://www.hostsearch.com/review/ultifree-hosting-review.asp">HostSearch</a> and <a href="https://hostadvice.com/hosting-company/ultifree-hosting-reviews/">HostAdvice</a>.
+                              Ultifree Hosting has a page on <a href="https://www.trustpilot.com/review/ultifreehosting.com">TrustPilot</a>, <a href="https://g.page/ultifree-hosting/review?rc">Google</a>, <a href="https://www.hostsearch.com/review/ultifree-hosting-review.asp">HostSearch</a> and <a href="https://hostadvice.com/hosting-company/ultifree-hosting-reviews/">HostAdvice</a> where you can find independent reviews by users.
                             </p>
                           </div>
                       </li>
