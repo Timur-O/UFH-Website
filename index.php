@@ -15,11 +15,11 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="utf-8">
-        <meta name="description" content="Ultifree Hosting provides free web hosting with PHP, MySQL, cPanel, Unlimited Bandwidth, and Unlimited Disk Space. Works with WordPress, E-Commerce..." />
+        <meta name="description" content="Ultifree Hosting provides free web hosting with PHP, MySQL, cPanel, Unlimited Bandwidth, and 5 GB Disk Space. Works with WordPress, E-Commerce..." />
 
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@ultifreehosting" />
-        <meta name="twitter:description" content="Ultifree Hosting provides free web hosting with PHP, MySQL, cPanel, Unlimited Bandwidth, Unlimited Disk Space and Unlimited Websites. Learn more about our free, reliable and secure services today!" />
+        <meta name="twitter:description" content="Ultifree Hosting provides free web hosting with PHP, MySQL, cPanel, Unlimited Bandwidth, 5 GB Disk Space and Unlimited Websites. Learn more about our free, reliable and secure services today!" />
         <meta name="twitter:title" content="Free, Unlimited Web Hosting - Ultifree Hosting" />
         <meta name="twitter:image" content="https://ultifreehosting.com/images/favicon.png" />
 
@@ -28,7 +28,7 @@
         <meta property="og:site_name" content="Ultifree Hosting">
         <meta property="og:url" content="https://ultifreehosting.com/" />
         <meta property="og:image" content="https://ultifreehosting.com/images/favicon.png" />
-        <meta property="og:description" content="Ultifree Hosting provides free web hosting with PHP, MySQL, cPanel, Unlimited Bandwidth, Unlimited Disk Space and Unlimited Websites. Learn more about our free, reliable and secure services today!" />
+        <meta property="og:description" content="Ultifree Hosting provides free web hosting with PHP, MySQL, cPanel, Unlimited Bandwidth, 5 GB Disk Space and Unlimited Websites. Learn more about our free, reliable and secure services today!" />
 
         <title>Free, Unlimited Web Hosting - Ultifree Hosting</title>
         <link rel="icon" href="images/favicon.png">
@@ -84,7 +84,7 @@
                 <div>
                     <i class="fa fa-server"></i>
                     <h2>Unlimited Hosting</h2>
-                    <p>You get unlimited disk space and unlimited bandwidth for your site when using our services.</p>
+                    <p>You get unlimited bandwidth without any time limits for your site when using our services.</p>
                 </div>
                 <div>
                     <i class="fa fa-tools"></i>
@@ -104,36 +104,7 @@
             </div>
 
         </section>
-<?php insertAds('home02', false); echo "<br />"; ?>
-        <section class="feature greybg" id="support">
-            <div class="container">
-                <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="images/support.svg"  alt="Support Graphic">
-                <div>
-                    <h1>Quality Support</h1>
-                    <p>We are committed to providing quality support to our customers.</p>
-                    <ul>
-                        <li>
-                            <i class="fa fa-question"></i>
-                            <h3>Knowledge Base</h3>
-                            <p>Find answers to the most frequently asked questions, check the articles on how to use your hosting account and use the tutorials to get the most out of your website! <br /> <a href="faq.php">Find Answers Now!</a></p>
-                        </li>
-                        <li>
-                            <i class="fa fa-comments"></i>
-                            <h3>Live Chat & Support Tickets</h3>
-                            <p>Send us a message through the live chat or create support ticket through the control panel and one of our staff members will get back to you as soon as possible!</p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <section class="cta" id="cta" data-src="images/globeInternet.webp">
-            <div class="container">
-                <h1>Enough already!</h1>
-                <h2>Click the link below to get started</h2>
-                <a class="CTAButton" href="https://app.ultifreehosting.com/signup.php" onclick="BeginSignupEvent('Homepage', 'EnoughAlreadyCTA');">Sign Up Now</a>
-            </div>
-        </section>
-<?php echo "<br />"; insertAds('home03', false); ?>
+        <?php insertAds('home02', false); echo "<br />"; ?>
         <section class="pricing" id="pricing">
             <div class="container">
                 <h1>Pricing & Plans</h1>
@@ -143,7 +114,7 @@
                     <h3>Free<span><i class="fa fa-star"></i></span></h3>
                     <div class="price">$0<span class="pricing_month">/Month</span></div>
                     <ul>
-                        <li><i class="fas fa-infinity"></i> Disk Space</li>
+                        <li>5 GB Disk Space</li>
                         <li><i class="fas fa-infinity"></i> Bandwidth</li>
                         <li>0 Email Accounts</li>
                         <li>400 MySQL Databases</li>
@@ -210,7 +181,7 @@
                 <a class="btn" id="findOutMoreButton" href="pricing.php" >Find out more<i class="fa fa-angle-right"></i></a>
             </div>
         </section>
-        <?php insertAds('home04', false); echo "<br />"; ?>
+        <?php insertAds('home03', false); echo "<br />"; ?>
 
         <section class="finalCTA" id="finalCTA" data-src="images/vectorServerRoom.webp">
             <div class="container">

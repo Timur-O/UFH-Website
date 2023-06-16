@@ -46,7 +46,7 @@
                     <h3>Free<span><i class="fa fa-star"></i></span></h3>
                     <div class="price">$0<span class="pricing_month">/Month</span></div>
                     <ul>
-                        <li><i class="fas fa-infinity"></i> Disk Space</li>
+                        <li>5GB Disk Space</li>
                         <li><i class="fas fa-infinity"></i> Bandwidth</li>
                         <li>0 Email Accounts</li>
                         <li>400 MySQL Databases</li>
@@ -135,7 +135,7 @@
                 </tr>
                 <tr>
                   <td>Disk Space</td>
-                  <td><i class="fas fa-infinity"></i></td>
+                  <td>5 GB</td>
                   <td>5 GB</td>
                   <td><i class="fas fa-infinity"></i></td>
                   <td><i class="fas fa-infinity"></i></td>

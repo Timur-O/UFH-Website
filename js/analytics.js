@@ -3,7 +3,7 @@ notMainFolder = false;
 window.onload = function() {
     insertArc();
     insertAdsense();
-    insertCrisp();
+    // insertCrisp();
     insertGoogleAnalytics();
     insertAddThis();
     insertHotjar();

@@ -5,7 +5,7 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="utf-8">
-        <meta name="description" content="Knowledge Base. Find answers to all of your questions here, and if you still need help just contact support!" />
+        <meta name="description" content="Knowledge Base. Find answers to all of your questions here!" />
 
         <title>Knowledge Base - Ultifree Hosting</title>
 
@@ -15,7 +15,7 @@
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://ultifreehosting.com/faq" />
         <meta property="og:image" content="https://ultifreehosting.com/images/favicon.png" />
-        <meta property="og:description" content="Knowledge Base. Find answers to all of your questions here, and if you still need help just contact support!" />
+        <meta property="og:description" content="Knowledge Base. Find answers to all of your questions here!" />
 
         <script async src="js/blockadblock.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600" rel="stylesheet">
@@ -35,7 +35,7 @@
 
               <input type="text" id="searchBarFAQ" onkeyup="faqSearch();" placeholder="Search knowledge base...">
               <p>
-                If you can't find the answer to your question here try contacting support. To check the status of our services visit our <a href="https://stats.uptimerobot.com/lpAKPSoX36">Status Page</a>.
+                To check the status of our services visit our <a href="https://stats.uptimerobot.com/lpAKPSoX36">Status Page</a>.
               </p>
 
               <br />
@@ -43,7 +43,7 @@
               <br />
 
               <ul id="answersFAQ">
-                <span id="no_results_text">No results found. Try contacting support.</span>
+                <span id="no_results_text">No results found.</span>
 
                 <li class="faq_section_head">
                     <div class="faq_section_head_child">Getting Started</div>
@@ -95,7 +95,7 @@
                               If your account is currently "processing", then within the next 15 minutes you will have been allocated a server and your website will be ready to use!
                             </p>
                             <p>
-                                If your account is "processing" for longer than 15 minutes, please contact support! Please note that sometimes your website will not be visible within 15 minutes (due to DNS propagation), in this case try accessing your website with "www." before the URL.
+                                Please note that sometimes your website will not be visible within 15 minutes (due to DNS propagation), in this case try accessing your website with "www." before the URL.
                             </p>
                           </div>
                       </li>
@@ -255,15 +255,6 @@
                       </li>
 
                       <li>
-                          <div class="collapsable">Where can I find help?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
-                          <div class="collapsableContent collapsableContentFAQ answer ">
-                            <p>
-                              You can try checking the other information available here on the FAQs page. If you can't find the information you need, then contact support!
-                            </p>
-                          </div>
-                      </li>
-
-                      <li>
                           <div class="collapsable">How do I report a website?<i class="fas fa-plus collapsablePlusFAQ "></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer ">
                             <p>
@@ -353,7 +344,6 @@
                           <div class="collapsable">I changed my nameservers, but I'm still getting an error! Why?<i class="fas fa-plus collapsablePlusFAQ"></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer">
                             <p>Due to DNS propagation, it takes some time before all the servers on the internet find out that you changed your nameservers. Sometimes this process can take up to 72 hours (usually less than an hour).</p>
-                            <p>Please only contact support after 72 hours, since waiting is the most common solution!</p>
                           </div>
                       </li>
 
@@ -373,7 +363,7 @@
                       <li>
                           <div class="collapsable">My domain contains a banned phrase, what do I do?<i class="fas fa-plus collapsablePlusFAQ"></i></div>
                           <div class="collapsableContent collapsableContentFAQ answer">
-                              <p>Some phrases are banned on our services due to excessive phishing attempts. If you believe your domain requires an exception, please contact support.</p>
+                              <p>Some phrases are banned on our services due to excessive phishing attempts. Please try a different domain name!</p>
                           </div>
                       </li>
 
