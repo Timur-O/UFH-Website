@@ -190,7 +190,7 @@
                 </tr>
                 <tr>
                   <td>Free Domain</td>
-                  <td>Sub-Domain (website.ultihost.net)</td>
+                  <td>Sub-Domain (website.subdomain.com)</td>
                   <td><img src="images/check.png"/></td>
                   <td><img src="images/check.png"/> & 5 Bonus Domains </td>
                   <td><img src="images/check.png"/> & 21 Bonus Domains</td>
